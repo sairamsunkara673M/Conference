@@ -23,7 +23,7 @@ git clone https://github.com/sairamsunkara673M/Conference
 - Create your configuration file:
 
 ```sh
-   cp .env.example .env
+   cp .env
 ```
 
 - Next, open up `.env` file in your editor and update your Twilio API KEYs.
@@ -44,7 +44,7 @@ Run the app
 
 ## Example use case
 
-To generate an access token, visit http://localhost:3000/token?identity=dongido
+To generate an access token, visit http://localhost:3000/token?identity=sairam
 
 In the case, `sairam` is the identity of the user we want to generate an access token for.
 
@@ -55,14 +55,14 @@ In the case, `sairam` is the identity of the user we want to generate an access 
 To run this project, you need to have:
 
 - [Node.js](https://nodejs.org/) installed on your system
-- A server for generating a token. Clone and install it [here](https://github.com/dongido001/TwilioNodeServer.git).
+- A server for generating a token. Clone and install it [here](https://github.com/sairamsunkara673M/Conference).
 
 ## Setup
 
 Clone the repository:
 
 ``` bash
- git clone https://github.com/dongido001/VueVideoChat.git
+ git clone https://github.com/sairamsunkara673M/Conference
 ```
 
 cd into the project:
@@ -88,3 +88,19 @@ And that's it. You can read more about how it was built [here](https://blog.twil
 
 # conference with socket.io library in python.
 
+Implemented Conference with socket.io library using Python
+
+# Prerequsite
+
+Install these packages "socket, cv2, pickle, struct, imutils"
+
+``` bash
+pip3 install opencv-python
+pip3 install imutils
+```
+# Run
+
+``` bash
+python3 server.py
+python3 client.py
+``` 
