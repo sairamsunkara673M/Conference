@@ -59,13 +59,8 @@ To run this project, you need to have:
 
 ## Setup
 
-Clone the repository:
-
-``` bash
- git clone https://github.com/sairamsunkara673M/Conference
-```
-
 cd into the project:
+
 ``` bash
 cd VueVideoChat
 ```
@@ -89,6 +84,13 @@ And that's it. You can read more about how it was built [here](https://blog.twil
 # conference with socket.io library in python.
 
 Implemented Conference with socket.io library using Python
+
+## Setup
+
+cd into the project:
+
+``` bash
+cd Conference_with_socket.io
 
 # Prerequsite
 
